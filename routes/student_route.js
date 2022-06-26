@@ -5,7 +5,7 @@ const router = express.Router();
 // Homepage
 router.get('/', (req, res) => {
   res.status(200).send(`
-  \nWelcome to my APP,
+  \nWelcome to my APP😊,
   \n To get all the students ---> /students,\n
   \n To assign a mentor to student or change mentor ----> /assign-mentor/:id (ex:id=1,2,3),\n
   \n To get all mentors ------------------> /mentors,
