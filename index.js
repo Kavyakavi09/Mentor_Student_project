@@ -11,8 +11,8 @@ const app = express();
 app.use(express.json());
 
 // To connected with routes
-app.use('/api', studentRoute);
-app.use('/api', mentorRoute);
+app.use('/', studentRoute);
+app.use('/', mentorRoute);
 
 let port = process.env.PORT || 4000;
 
